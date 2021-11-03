@@ -130,7 +130,7 @@ header:before{
     display: grid;
     transform: scale(1);
     transition: 0.3s;
-    position:static !important;
+    position:static ;
 
 }
 
