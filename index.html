@@ -20,14 +20,19 @@
             <div class="logo">
                 <img src="images/logo.svg" alt="">
             </div>
-            <div class="nav">  
-                <div class="menu">
+            <div class="nav" id="nav1">  
+                <div class="menu" >
                     <ul>
                         <li>
                             <a href="#">
                                 Product
                             </a>
-                            <img  class="down-arrow" src="images\icon-arrow-light.svg">
+                            
+                            <picture>
+                                <source media="(max-width:900px)" srcset="images/icon-arrow-dark.svg">
+                                <source media="(min-width:900px)" srcset="images/icon-arrow-light.svg">
+                                <img src="images/icon-arrow-dark.svg" alt="">
+                            </picture>
                             <ul class="Products">  
                                 <li><a href="#">Overview</a></li>
                                 <li><a href="#">Integrations</a></li>
@@ -41,7 +46,12 @@
                             <a href="#">
                                 Company
                             </a>
-                            <img  class="down-arrow"src="images\icon-arrow-light.svg">
+                            
+                            <picture>
+                                <source media="(max-width:900px)" srcset="images/icon-arrow-dark.svg">
+                                <source media="(min-width:900px)" srcset="images/icon-arrow-light.svg">
+                                <img src="images/icon-arrow-dark.svg" alt="">
+                            </picture>
                             <ul class="Company"> 
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Team</a></li>
@@ -52,13 +62,18 @@
                             <a href="#">
                                 Connect
                             </a>
+                            <picture>
+                                <source media="(max-width:900px)" srcset="images/icon-arrow-dark.svg">
+                                <source media="(min-width:900px)" srcset="images/icon-arrow-light.svg">
+                                <img src="images/icon-arrow-dark.svg" alt="">
+                            </picture>
                             <img class="down-arrow" src="images\icon-arrow-light.svg">
                             <ul class="Connect"> 
                                 <li><a href="#">Contact</a></li>
-                            <li><a href="#">Newsletter</a></li>
+                                <li><a href="#">Newsletter</a></li>
                             <li><a href="#">LinkedIn</a></li>
                         </ul>
-                        </li>
+                    </li>
                     </ul>
                 </div>
                 <div class="profile">
@@ -68,14 +83,13 @@
                     </a>
                 </div>
             </div>
-            <div class="hamburger-menu">
+            <div id="hamburger-menu" onclick="showMenu()">
             <img src="images/icon-hamburger.svg" alt="">
-
-            </div>
+        </div>
         </div>
     </div>
 
-        <section id="hero">
+    <section id="hero">
             <h1>A modern publishing platform</h1>
             <h5>Grow your audience and build your online brand</h5>
             <div class="hero-buttons">
@@ -141,7 +155,7 @@
                 <div class="text"> <article>
                     <h2>Free, open, simple
                        
-                      </h2>
+                    </h2>
                     <p> Blogr is a free and open source application backed by a large community of helpful developers. It supports 
                         features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
                         and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
@@ -152,7 +166,7 @@
                     <p>
                     Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
                     capable of producing even the most complicated sites.
-                      </p>
+                </p>
                 </article>
                 </div>
             </div>
@@ -162,12 +176,12 @@
     <footer>
         <div class="logo"><img src="images/logo.svg" alt=""></div>
             <ul class="Products">  <h4> Products</h4>
-            <li><a href="#">Overview</a></li>
+                <li><a href="#">Overview</a></li>
             <li><a href="#">Integrations</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Marketplace</a></li>
             <li><a href="#">Features</a></li>
-             </ul>
+        </ul>
             <ul class="Company">  <h4> Company</h4>
             <li><a href="#">About</a></li>
             <li><a href="#">Team</a></li>
@@ -175,10 +189,11 @@
             <li><a href="#">Careers</a></li></ul>
             <ul class="Connect">  <h4> Connect</h4>
                 <li><a href="#">Contact</a></li>
-            <li><a href="#">Newsletter</a></li>
-            <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">LinkedIn</a></li>
         </ul>
     </footer>
     
+    <script src="script.js"></script>
 </body>
 </html>
