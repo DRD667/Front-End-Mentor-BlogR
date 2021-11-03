@@ -160,8 +160,8 @@ header:before{
 }
     
 ul.Products,ul.Company,ul.Connect{
-    margin:15px !important;
-    position:static !important;
+    margin:15px;
+    position:static ;
 }
 
 }
@@ -295,8 +295,8 @@ footer a:hover{
 }
 
 ul.Products,ul.Company,ul.Connect{
-    margin:15px !important;
-    position:static !important;
+    margin:15px ;
+    position:static ;
 }
 
 
