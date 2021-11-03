@@ -125,6 +125,15 @@ header:before{
     justify-content: space-around;
     flex-direction: column;
 }
+    
+        .menu li:hover ul  {
+    display: grid;
+    transform: scale(1);
+    transition: 0.3s;
+    position:static;
+
+}
+
 
 #nav1 .menu>ul>li{
     display: flex;
@@ -274,13 +283,6 @@ footer a:hover{
 }
 
 
-    .menu li:hover ul  {
-    display: grid;
-    transform: scale(1);
-    transition: 0.3s;
-    position:absolute;
-
-}
 
 #hamburger-menu{
         z-index: 50;
