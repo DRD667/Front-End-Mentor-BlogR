@@ -160,8 +160,8 @@ header:before{
 }
     
 ul.Products,ul.Company,ul.Connect{
-    margin:8px;
-    position:static;
+    margin:15px !important;
+    position:static !important;
 }
 
 }
