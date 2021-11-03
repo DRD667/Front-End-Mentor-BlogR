@@ -6,7 +6,8 @@
 
     #hamburger-menu{
         display: none;
-    }.menu ul li ul {
+    }
+    .menu ul li ul {
         display: none;
         background: bisque;
     }
