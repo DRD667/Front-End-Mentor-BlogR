@@ -216,11 +216,9 @@ main .hero h2{
 
 
 #StateofArt .content .img{
-    /* flex: 2; */
-    height: 70vh;
-    transform: translateY(-10%) ;
+    height: 60vh;
+    transform: translateY(-20%) ;
 }
-
 /* Footer */
 footer{
     background-color: hsl(240, 10%, 16%);
