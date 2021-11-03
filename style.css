@@ -129,8 +129,8 @@ header:before{
 #nav1 .menu>ul>li{
     display: flex;
     flex-direction: column;
+    position: static;
 }
-
 
 #nav1 *{
     color: black ;
