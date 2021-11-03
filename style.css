@@ -25,7 +25,6 @@ img{
 body{
     font-family: Overpass;
     margin: 0;
-    overflow-x:hidden;
 }
 
 .logo{
@@ -125,21 +124,12 @@ header:before{
     justify-content: space-around;
     flex-direction: column;
 }
-    
-        .menu li:hover ul  {
-    display: grid;
-    transform: scale(1);
-    transition: 0.3s;
-    position:static ;
-
-}
-
 
 #nav1 .menu>ul>li{
     display: flex;
     flex-direction: column;
-    position: static;
 }
+
 
 #nav1 *{
     color: black ;
@@ -148,7 +138,7 @@ header:before{
 .menu ul{
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 40vh;
     justify-content: space-evenly;
 
 
@@ -158,12 +148,6 @@ header:before{
     display: none;
     background: bisque;
 }
-    
-ul.Products,ul.Company,ul.Connect{
-    margin:15px;
-    position:static ;
-}
-
 }
 
 
@@ -231,9 +215,11 @@ main .hero h2{
 
 
 #StateofArt .content .img{
+    /* flex: 2; */
     height: 60vh;
     transform: translateY(-20%) ;
 }
+
 /* Footer */
 footer{
     background-color: hsl(240, 10%, 16%);
@@ -289,14 +275,18 @@ footer a:hover{
 }
 
 
+    .menu li:hover ul  {
+    display: grid;
+    transform: scale(1);
+    transition: 0.3s;
+    
+
+}
 
 #hamburger-menu{
-        z-index: 50;
+    z-index: 50;
 }
 
-ul.Products,ul.Company,ul.Connect{
-    margin:15px ;
-    position:static ;
-}
+
 
 
