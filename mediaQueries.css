@@ -90,15 +90,11 @@
         grid-template-columns: repeat(4,1fr);
     }
     
-    .men>ul>li>ul{
+
+    
+    .menu ul li ul{
         position:absolute;
-        top:110%;
         transform:sclae(0);
-    }
-    
-    
-    .menu>ul>li>ul{
-        position:absolute;
         top:110%;
     
     }
