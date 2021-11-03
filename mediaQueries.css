@@ -10,6 +10,8 @@
     .menu ul li ul {
         display: none;
         background: bisque;
+        position:absolute;
+        top:110%;
     }
 
     .hero-buttons{
