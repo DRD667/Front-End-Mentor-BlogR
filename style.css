@@ -294,6 +294,9 @@ footer a:hover{
         z-index: 50;
 }
 
-
+ul.Products,ul.Company,ul.Connect{
+    margin:15px !important;
+    position:static !important;
+}
 
 
