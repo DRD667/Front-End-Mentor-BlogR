@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+a{
+    color: unset;    
+    text-decoration: none;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+body{
+    font-family: Overpass;
+    margin: 0;
+    overflow-x:hidden;
+}
+
+.logo{
+    font-family: Ubuntu;
+}
+
+header{
+    background:linear-gradient(to left,hsl(353, 100%, 62%),hsl(13, 100%, 72%));    background-size: 100%;
+    background-position: center;
+    color: white;
+    padding: 4em 0 8em ;
+    margin: 0;
+    position: relative;
+    border-bottom-left-radius: 20%;
+}
+
+header:before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(images/bg-pattern-intro.svg);
+    background-size: 100%;
+    mix-blend-mode:lighten;
+    
+
+}
+
+#navbar{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 1rem;
+    
+}
+
+#hero{
+    padding:  2.5rem ;
+    margin-top: 3em;
+    font-size: 1.9rem;
+}
+
+
+
+#hero>h5{
+    font-weight: lighter;
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.hero-buttons button,.profile button, .login{
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1.1rem;
+}
+
+.login{
+    border: none;
+}
+
+
+.sign, .sign-up,.LearnMore:hover{
+    background: white;
+    color: hsl(356, 100%, 66%);
+    transition: 0.3s;
+    font-family: ubuntu;
+    font-weight: bold;
+}
+
+.LearnMore{
+    font-family: ubuntu;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+.nav{
+    display: none; 
+    flex: 1;
+    padding: 0 3rem;
+}
+@media (max-width:900px){
+#nav1{
+    position: fixed;
+    inset: 3.5em;
+    background: rgb(255, 255, 255);
+    color: black ;
+    z-index: 50;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+    
+        .menu li:hover ul  {
+    display: grid;
+    transform: scale(1);
+    transition: 0.3s;
+    position:static ;
+
+}
+
+
+#nav1 .menu>ul>li{
+    display: flex;
+    flex-direction: column;
+    position: static;
+}
+
+#nav1 *{
+    color: black ;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-evenly;
+
+
+}
+
+.menu ul li ul {
+    display: none;
+    background: bisque;
+}
+    
+ul.Products,ul.Company,ul.Connect{
+    margin:15px;
+    position:static ;
+}
+
+}
+
+
+.nav li{
+    display: flex;
+    align-items: center;
+}
+.menu>ul,.profile{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    color: white;
+}
+
+
+.down-arrow{
+    position: relative;
+    bottom: 2px;
+    margin-left: 0.1rem;
+}
+
+
+main .Flex h1, main .Flex h2{
+    color:  hsl(208, 49%, 24%);
+    
+}
+
+main .hero h2{
+    padding: 0 3rem ;
+    font-size: 2em;
+    margin: 0;
+}
+ main .Flex  p{
+ 
+     color: hsl(207, 13%, 34%);
+    }
+
+ main .content article{
+     margin: 2rem 0;
+     padding: 0 2.5rem;
+    }
+
+ .Flex{
+     margin: 6em 0;
+ }
+ 
+ .section-heading{
+     font-size:2em;
+ }
+ 
+ /* State of Art */
+ #StateofArt .content{
+     background-image:linear-gradient(to right, hsl(237, 43%, 46%),hsl(237, 23%, 32%));
+     border-radius: 0 20% 0 20%;
+     color: white;
+}
+
+#StateofArt .content article{
+    padding: 1em 3rem 3em;
+}
+
+#StateofArt .content article{
+    font-size: 1.3em;
+}
+
+
+#StateofArt .content .img{
+    height: 60vh;
+    transform: translateY(-20%) ;
+}
+/* Footer */
+footer{
+    background-color: hsl(240, 10%, 16%);
+    color: white;
+    display: grid;
+    padding: 3rem;
+        grid-template-columns: 1fr;
+        align-content: baseline;
+        border-top-right-radius: 100px;
+}
+
+footer li{
+    padding: 0.5rem;
+}
+
+a,li,button{
+    z-index: 2;
+}
+
+.menu a:hover{
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    transition: 0.3s;
+    
+}
+
+footer a:hover{
+    border-bottom: 1px solid white;}
+
+.sign:hover, .sign-up:hover, .sign:hover {
+    background-color: hsl(355, 100%, 74%)  ;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu ul {
+    position: relative;
+}
+
+.menu li ul{
+    background: rgb(255, 255, 255);
+    color: black;
+    height: 9em;
+    width: 9em;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    border-radius: 10px;
+}
+
+.menu li> ul li{
+    padding: 0.2em;
+}
+
+
+
+#hamburger-menu{
+        z-index: 50;
+}
+
+ul.Products,ul.Company,ul.Connect{
+    margin:15px ;
+    position:static ;
+}
+
+
