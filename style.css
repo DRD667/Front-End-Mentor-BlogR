@@ -158,6 +158,12 @@ header:before{
     display: none;
     background: bisque;
 }
+    
+ul.Products,ul.Company,ul.Connect{
+    margin:8px;
+    position:static;
+}
+
 }
 
 
@@ -286,10 +292,6 @@ footer a:hover{
 
 #hamburger-menu{
         z-index: 50;
-}
-
-ul.Products,ul.Company,ul.Connect{
-    margin:8px;
 }
 
 
