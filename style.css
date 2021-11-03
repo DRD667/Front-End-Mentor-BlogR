@@ -290,3 +290,121 @@ footer a:hover{
 
 
 
+@media (min-width:900px){
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #hamburger-menu{
+        display: none;
+    }
+    .menu ul li ul {
+        display: none;
+        background: bisque;
+        position:absolute !important;
+        top:110%;
+    }
+
+    .hero-buttons{
+        justify-content: center;
+        gap: 2em;
+    }
+
+    #navbar{
+    margin: 0 auto;
+    }
+
+    .content{
+        display: flex;
+        align-items: center;
+    }
+
+    .img{
+        order: 2;
+        transform: translateX(30%);
+    }
+
+    .content>*{
+        flex: 1.5;
+    }
+
+    article *, article h2
+    {
+     text-align: left;
+
+    }
+
+    .text{
+        margin-left: 6rem   ;
+    }
+    
+     #DesignFeature .img{
+        flex: 2;
+    }
+
+    #StateofArt .content{
+        display: flex;
+        justify-content:space-around;
+        flex-direction: row-reverse;
+        position: relative;
+        margin: 0 auto;
+        border-radius: 0 0 0 100px;
+    }
+
+    #StateofArt .content:before{
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image: url(images/bg-pattern-circles.svg);
+        background-repeat: no-repeat;
+
+    }
+
+    #perks .content{
+        flex-direction: row-reverse ;
+    }
+
+    #perks .content .img{
+        transform: translateX(-20%) scale(1.2);
+
+    }
+
+    #perks .text{
+        margin-left: -6rem   ;
+    }
+
+    .logo{
+        margin-top: 1rem;
+    }
+
+    footer{
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+
+    
+    .menu ul li ul{
+        position:absolute;
+        transform:scale(0);
+        top:110%;
+    
+    }
+    
+    ul.Products,ul.Company,ul.Products{
+        position:absolute !important;
+        top:110%;
+        transform:scale(1)
+        
+    
+    }
+        
+    .menu li:hover ul  {
+        display: grid;
+        transform: scale(1);
+        transition: 0.3s;
+        position:absolute ;
+    
+    }
+
+}
