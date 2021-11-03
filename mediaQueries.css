@@ -4,7 +4,7 @@
         justify-content: space-between;
     }
 
-    .hamburger-menu{
+    #hamburger-menu{
         display: none;
     }
 
