@@ -94,16 +94,24 @@
     
     .menu ul li ul{
         position:absolute;
-        transform:sclae(0);
+        transform:scale(0);
         top:110%;
     
     }
     
     ul.Products,ul.Company,ul.Products{
-        position:absolute;
+        position:absolute !important;
         top:110%;
         transform:scale(1)
         
+    
+    }
+        
+    .menu li:hover ul  {
+        display: grid;
+        transform: scale(1);
+        transition: 0.3s;
+        position:absolute ;
     
     }
 
