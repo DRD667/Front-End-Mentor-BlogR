@@ -139,7 +139,7 @@ header:before{
 .menu ul{
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 50vh;
     justify-content: space-evenly;
 
 
