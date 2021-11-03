@@ -10,7 +10,7 @@
     .menu ul li ul {
         display: none;
         background: bisque;
-        position:absolute;
+        position:absolute !important;
         top:110%;
     }
 
@@ -101,7 +101,7 @@
     
     ul.Products,ul.Company,ul.Products{
         position:absolute;
-        top:100%;
+        top:110%;
         transform:scale(1)
         
     
