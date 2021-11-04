@@ -99,13 +99,7 @@
     
     }
     
-    ul.Products,ul.Company,ul.Products{
-        position:absolute !important;
-        top:110%;
-        transform:scale(1)
-        
-    
-    }
+   
         
     .menu li:hover ul  {
         display: grid;
